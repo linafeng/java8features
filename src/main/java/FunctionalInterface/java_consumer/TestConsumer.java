@@ -31,4 +31,11 @@ public class TestConsumer {
     public void happy(double money, Consumer<Double> con) {
         con.accept(money);
     }
+
+   /* public static void main(String[] args) {
+        BinaryOperator<Integer> add = Integer::sum;
+        BinaryOperator<Integer> subtraction = (a, b) -> a - b;
+        System.out.println(subtraction.apply(add.apply(1, 2), 3));
+    }*/
+
 }
